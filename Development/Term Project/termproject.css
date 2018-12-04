@@ -1,0 +1,103 @@
+body {
+			background-color: darkred;
+		}
+
+.main {
+			width: 1000px;
+			margin: 0 auto;
+			background-color: white;
+			padding: 10px;
+			border-radius: 10px;
+		}
+
+header h1 {
+			text-align: center;
+		}
+header ul {
+			padding: 0;
+			list-style-type: none;
+			text-align: center;
+		}
+
+header ul li {
+			display: inline-block;
+		}
+
+header ul li a {
+			color: white;
+			background-color: darkred;
+			font-weight: bold;
+			padding: 10px 15px;
+			text-decoration: none;
+			border-radius: 10px;
+		}
+
+.image-left {
+			float: left;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			height: 100px;
+			width: 100px;
+		}
+
+.image-right {
+			float: right;
+			margin-left: 5px;
+			margin-bottom: 5px;
+			height: 100px;
+			width: 100px;
+		}
+
+h2 {
+			text-align: center;
+			text-decoration: underline;
+		}
+		
+h3 {
+			text-align: center;
+			font-style: italic;
+		}
+		
+footer {
+			text-align: center;
+			color: white;
+		}
+#table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+#h1 {
+	text-align: center;
+}
+.h4 {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+p {
+	text-align: center;
+}
+
+.head:hover {
+	border: outset;
+}
+.menu a {
+			display: inline-block;
+			padding: 5px;
+			text-decoration: none;
+			color: darkred;
+		
+}
+.menu {
+			margin: 0 auto;
+			margin-top: 30px; 
+			width: 300px;
+			text-shadow: 0px 0px 10px red;
+			border-color: darkred;
+			border-width: 15px;
+			text-align: center;
+			border-style: ridge;
+			border-radius: 10px;
+			
+}
